@@ -5,7 +5,7 @@ public class NesterTerenaryOperator {
 
 
         int age = 27;
-        String GoaPlan = age > 19 ? (age > 25 ? ("In Goa You can Drink") : "You can't drink") : "You can't got to Goa";
+        String GoaPlan = age > 19 ? (age > 25 ? "In Goa You can Drink" : "You can't drink") : "You can't got to Goa";
 
         System.out.println(GoaPlan);
 
