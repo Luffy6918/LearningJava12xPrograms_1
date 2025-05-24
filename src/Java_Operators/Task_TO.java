@@ -13,17 +13,17 @@ public class Task_TO {
 
         //checking the max number using Nested terenary operator out of 3
 
-        int x=38;
-        int y=26;
-        int z=28;
+        int x=20;
+        int y=29;
+        int z=38;
 
-        String Value=x>y?(x>z?"X is the largest":"Z is the largest"): "Y is the largest";
+        String Value=(x>y)?(x>z)?"X is the largest":"Z is the largest": ((y>z)?"Y is the largest":"Z is the largest");
 
         System.out.println(Value);
 
         //Checking the person if he is a minor, major, senior using Nested Ternary operator
 
-        int Age=48;
+        int Age=17;
 
         String personIs =Age>18?(Age>45?"Senior":"Major"):"Minor";
 
