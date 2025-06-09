@@ -10,7 +10,6 @@ public class Hacker_rank_problem {
 
         long year = scanner.nextLong();
 
-
         System.out.println("Enter the number");
 
         int Month = scanner.nextInt();
@@ -25,7 +24,7 @@ public class Hacker_rank_problem {
                 break;
 
             case 2:
-                if (((year % 100 == 0) && (year % 400 == 0)) || (year % 100 == 0)) {
+                if ((((year % 100) == 0) && ((year % 4) == 0)) || ((year % 400) == 0)) {
                     System.out.println("number of days in Feb is 29");
                 } else {
                     System.out.println("number of days in Feb is 28");
@@ -37,8 +36,5 @@ public class Hacker_rank_problem {
         }
 
     }
-
-
-
     }
 
