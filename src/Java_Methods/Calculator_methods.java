@@ -28,10 +28,6 @@ public class Calculator_methods {
         System.out.println(prompt);
         if(scanner.hasNextInt()){
             return scanner.nextInt();
-
-
-
-
         }
         else{
             System.out.println("Enter the number only");
@@ -40,21 +36,14 @@ public class Calculator_methods {
             return -1;
 
         }
-
-
-
     }
     public static int sum(int a, int b){
 
         return (a+b);
-
-
     }
     public static int difference(int a , int b){
 
         return (a-b);
-
-
     }
     public static int div(int a , int b){
 
@@ -62,14 +51,10 @@ public class Calculator_methods {
             throw new ArithmeticException("Division by zero is not possible");
         }
         return (a/b);
-
-
     }
     public static int mult(int a , int b){
 
         return (a*b);
-
-
     }
 
 
