@@ -1,10 +1,8 @@
 package Tasks;
 
-import java.util.*;
-
 import java.util.Scanner;
 
-public class Task_June20 {
+public class Task_char_Alphabet {
 
     public static void main(String[] args) {
         Scanner scanner= new Scanner(System.in);
